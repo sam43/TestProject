@@ -1,7 +1,7 @@
 package com.example.sayem.testapp
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.view.Gravity
 import android.view.View
 import android.widget.TextView
@@ -16,7 +16,6 @@ class ViewAutoSliderActivity : AppCompatActivity() {
         val textView = TextView(this)
         textView.text = "Dynamically added TextView"
         textView.gravity = Gravity.CENTER
-
         viewFlipper.addView(textView)
 
         viewFlipper.setFlipInterval(2000)
