@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_title"
+        android:title="Move to..."
+        android:orderInCategory="100"/>
+
+
+        <item
+            android:id="@+id/action_add_favourite"
+            android:title="ShortListed"
+            android:orderInCategory="101" />
+
+        <item
+            android:id="@+id/action_play_next"
+            android:title="Interview List"
+            android:orderInCategory="102" />
+</menu>
