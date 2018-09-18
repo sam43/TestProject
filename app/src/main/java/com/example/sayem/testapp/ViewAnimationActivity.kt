@@ -67,7 +67,7 @@ class ViewAnimationActivity : AppCompatActivity() {
                 .toUpperCase()
                 .withBorder(10)
                 .endConfig()
-                .buildRoundRect(char.toString(), color1, 85)
+                .buildRoundRect(char, color1, 85)
         /*val drawable = builderC?.build("S", color1)*/
 
         image?.setImageDrawable(drawable)
