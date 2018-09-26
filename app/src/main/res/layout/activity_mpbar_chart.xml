@@ -4,12 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MPBarChartActivity">
+    tools:context=".mpChartTest.MPBarChartActivity">
 
     <com.github.mikephil.charting.charts.BarChart
         android:id="@+id/chart"
+        android:layout_height="260dp"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:paddingTop="50dp"
         android:layout_marginBottom="20dp"/>
+<!--    <com.github.mikephil.charting.charts.CombinedChart
+        android:id="@+id/chart"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginBottom="20dp"/>-->
 
 </RelativeLayout>
