@@ -40,7 +40,7 @@ class PullToRefreshActivity : AppCompatActivity() {
         }
     }
 
-    fun shuffle() {
+    private fun shuffle() {
         arrayList.shuffle(Random(System.currentTimeMillis()))
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList)
         rvList?.adapter = adapter
